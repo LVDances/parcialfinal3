@@ -1,0 +1,19 @@
+.navbar{
+    /*barra*/
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-primary);
+}
+.navbar a{
+    /*color barra,tamaño*/
+    color: white;
+    padding: 14px 20px;
+    text-decoration:solid;
+    /*para pantallas pequeñas que cambie tamaño*/
+    text-align: center;
+
+}
+.navbar a:hover{
+    /*color sombra*/
+    background-color: var(--color-primary-dark);
+}

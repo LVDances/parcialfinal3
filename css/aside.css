@@ -1,0 +1,46 @@
+aside{
+    /*espacio que ocupara el aside barra lateral*/
+    flex: 30%;
+    padding: 20px;
+    background-color: var(--color-gray-light);
+}
+aside h2, aside h3{
+     /*cambiar color de fuente en divs*/
+     color: var(--color-primary);
+}
+.video-link img{
+     /*Laimagen pequeña*/
+    width: 100%;
+    height: 60px;
+    margin-bottom: 10px;
+    object-fit: cover;
+    font-size: ;
+}
+.video-link h4{
+    /*texto dentro link imaginies peqeñas*/
+    opacity: 0;
+    position: absolute;
+    color: white;
+    /*fondo dentro del hader div*/
+    background-color: rgba(0, 0,0, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-top: 10px;
+    transition: all 0.3s; 
+
+}
+.video-link:hover h4{
+    opacity: 1;
+}
+.prueba{
+    font-size: 1vw;
+    border-radius: 10px;
+    padding: 25px;
+}
+@media screen and (max-width:700px)
+{
+    .prueba{
+        font-size: 3vw;
+    }
+}

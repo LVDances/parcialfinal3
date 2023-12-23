@@ -1,0 +1,63 @@
+@import "colors.css";
+@import "common.css";
+@import "header.css";
+@import "navbar.css";
+@import "aside.css";
+@import "content.css";
+@import "footer.css";
+@import "flipcard.css";
+@import "crud.css";
+@import "boton.css";
+
+
+@media screen and (max-width: 700px)
+{
+    /*para que dos clases use la misma query*/
+    .navbar, .row, .search-bar, input{
+        /*cuando sea mas pequeño las barra de nav sea una sobre otra*/
+        flex-direction: column;
+
+    }
+}
+/*barra busueda*/
+.search-bar input {
+    background-color: #E8F6F3;
+   
+    border: 2px solid #fed009; /* Borde amarillo dorado */
+    flex-grow: 1; /* Permite que el input se expanda para llenar el espacio */
+    border: none; /* Elimina el borde */
+    outline: none; /* Elimina el resalte al enfocar */
+    padding: 10px 15px; /* Relleno dentro del input */
+    border-radius: 25px 0 0 25px; /* Bordes redondeados solo en el lado izquierdo */
+  }
+
+  .search-bar button {
+    padding: 10px 15px; /* Relleno dentro del botón */
+    border: none; /* Elimina el borde */
+    background-color: var(--color-primary); /* Fondo amarillo dorado */
+    color: white; /* Texto blanco */
+    cursor: pointer; /* Cambia el cursor a una mano cuando se pasa por encima */
+    border-radius: 20px 20px 20px 20px; /* Bordes redondeados solo en el lado derecho */
+    transition: background-color 0.3s; /* Transición suave para el color de fondo */
+  }
+
+  .search-bar button:hover {
+    background-color: red; /* Cambia el color de fondo al pasar el ratón por encima */
+  }
+  search-bar {
+    display: flex; /* Alinea el input y el botón */
+    border: 2px solid #09fe6f; /* Borde amarillo dorado */
+    border-bottom-left-radius: 20px; /* Bordes redondeados */
+    border-bottom-right-radius: 20px; /* Bordes redondeados */
+    padding: 5px; /* Espacio interior alrededor del input y el botón */
+    background-color: #fff; /* Fondo blanco */
+    max-width: 500px; /* Ancho máximo del buscador */
+    margin: auto; /* Centra el buscador */
+  }
+  @media (max-width: 600px) {
+    
+    .search-bar
+    {
+      flex-direction: column;
+      background-color: #f7f7f7;
+    }}

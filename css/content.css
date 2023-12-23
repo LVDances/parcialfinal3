@@ -1,0 +1,45 @@
+.row{
+    display: flex;
+    /*no salga nada del contenido*/
+    flex-wrap: wrap;
+}
+
+.main{
+/*espacio que ocupara el main*/
+    flex: 70%;
+    
+    background-color: rgb(240, 239, 237);
+    padding: 20px;
+}
+.main h2{
+    text-transform: uppercase;
+    margin-top: 40px;
+    color: var(--color-primary);
+    }
+.main img{
+    width: 100%;
+    height: 200px;
+    /*object-fit: cover;*/
+    
+} 
+.main .read-more{
+    color: white;
+    text-decoration: none;
+    background-color: var(--color-primary);
+    padding: 10px;
+    border-radius:10px;
+}   
+.main .read-more:hover{
+    background-color: var(--color-primary-dark);
+   
+}  
+#morepost{
+    display: block;
+    color: var(--color-primary);
+    margin-top: 40px;
+    text-align: center;
+
+}
+#morepost:hover{
+    color: var(--color-primary-dark);
+}

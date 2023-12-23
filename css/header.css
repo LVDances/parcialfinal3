@@ -1,0 +1,27 @@
+header{
+    padding: 60px;
+    text-align: center;
+    background-image: url("https://www.exploregod.com/sites/default/files/styles/teaser_image/public/article-images/what-are-the-gnostic-gospels_article_header.jpg?h=bed2461b&itok=MimjJvBc");
+     /*para que no se repita
+     background-repeat: no-repeat;
+       /*para que no se corte
+    background-size: cover; */  
+
+}
+header h1{
+    font-size: 40px;
+    margin: 0 0 20px;
+}
+header p {
+    /*margen tamaño*/
+    margin: 0 0 10px;
+}
+header div{
+    /*fondo dentro del hader div*/
+    background-color: rgba(0, 0,0, 0.7);
+    /*padding para que no este pegado*/
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
